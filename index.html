@@ -17,8 +17,61 @@
 <body>
 
   <div class="container">
-    .
+    <div class="dati-biglietto">
+      <h1 class="text-center my-4 ">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+      <div class="bg-light ">
+        <form action="">
+          <div class="row row-cols-3 flex-nowrap justify-content-center  ">
+            <div class="nome-cognome d-flex flex-column align-items-center px-3">
+              <h6>Nome e cognome</h6>
+              <input id="nome" type="text" class="w-50 " placeholder="Inserisci nome e cognome">
+            </div>
+            <div class="km d-flex flex-column align-items-center   px-3 ">
+              <h6>Kilometri da percorrere</h6>
+              <input id="km" type="text" class="w-50 " placeholder="Inserisci i kilometri">
+            </div>
+            <div class="eta d-flex flex-column align-items-center  px-3 ">
+              <h6>Fascia d'età</h6>
+              <select class="form-select w-50 " id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">Minorenne</option>
+                <option value="2">Magiorenne</option>
+                <option value="3">Over 65</option>
+              </select>
+            </div>
+          </div>
+        </form>
+
+        <div class="btns text-center"> 
+          <button id="genera" class="btn" >Genera</button>
+          <button id="annulla" class="btn">Annulla</button></div>
+
+      </div>
+      
+
+    </div>
+    <div class="biglietto ">
+      <div class="biglietto-content">
+        <h3>DETTAGLI PASSEGGERI</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">NOME PASSEGGERO</th>
+              <th scope="col">Offerta</th>
+              <th scope="col">Carrozza</th>
+              <th scope="col">Codice CP</th>
+              <th scope="col">Costo biglietto</th>
+              
+            </tr>
+          </thead>
+        </table>
+      </div>
+
+
+    </div>
   </div>
+
+  <script src="script.js"></script>
   
 </body>
 </html>
