@@ -1,0 +1,24 @@
+body{
+  background-color: palevioletred;
+}
+
+.dati-biglietto h6{
+  color: palevioletred;
+}
+
+.dati-biglietto input{
+  border-color: palevioletred;
+  border-radius: 5px;
+  height: 38.21px;
+}
+
+.dati-biglietto .form-select{
+  border-color: palevioletred;
+
+}
+
+.btns .btn{
+  border-color: grey;
+  color: palevioletred;
+}
+
